@@ -1,0 +1,137 @@
+@media screen and (max-width: 600px) {
+
+ .part2{
+  text-align: center;
+  align-items: center;
+ }
+  
+.h2-p2,
+.h3-p2,
+.p-p2{
+  max-width: 100%; 
+  margin-left: 50%; 
+  margin-right: 50%;
+}
+.ancla{
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #F44336;
+  height: 30px;
+  display: flex;
+
+}
+
+nav {
+  display: flex;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #F44336;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+main{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+.part1 {
+  background-color: #F44336;
+  color: rgb(255, 255, 255);
+  text-align: center; 
+  padding: 5em 0; 
+}
+
+.part2{
+  padding: 5em 0;
+}
+
+.h2-p2,
+.h3-p2,
+.p-p2{
+  max-width: 100%; 
+  margin-left: 10%; 
+  margin-right: 30%;
+}
+
+.part3{
+  text-align: left;
+  padding: 5em 0;
+  background-color: #F1F1F1;
+}
+
+.h2-p3,
+.h3-p3,
+.p-p3{
+  max-width: 100%; 
+  margin-left: 30%;
+  margin-right: 10%;
+}
+
+.part4{
+  padding: 2em 0;
+  color: white;
+  background-color: #666666;
+  width: 100%;
+}
+
+.part5{ 
+  padding: 5em 0;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+
+.h3-p4,
+.p-p5{
+  text-align: center;
+}
+
+.ancla {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin-left: 70%;
+  margin-top: -10%;
+}
+.taza {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: -10%;
+  margin-left: 10%;
+}
+
+button {
+  margin: none;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+
+button:hover{
+  background-color: white;
+  color: black; 
+}
+
